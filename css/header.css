@@ -42,17 +42,20 @@
 .navber {
   height: 50px;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
   gap: 30px;
 }
+
 .nav-list a {
   color: #575757;
   font-size: 16px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
+
 .nav-list a:hover {
   color: #e8ba2e;
   font-weight: 700;

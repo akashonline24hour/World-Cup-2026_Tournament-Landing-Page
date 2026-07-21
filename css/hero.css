@@ -1,0 +1,59 @@
+/* Hero Section */
+.hero-section {
+  width: 1408px;
+  height: 786px;
+  margin: 0 auto;
+  border-radius: 16px;
+  position: relative;
+
+  background:
+    linear-gradient(
+      228.89deg,
+      rgba(0, 0, 0, 0) 41.74%,
+      rgba(0, 0, 0, 0.8) 87.44%
+    ),
+    url("../images/Hero-Background.png") center center/cover no-repeat;
+}
+
+.hero-container {
+  width: 465px;
+  height: 450px;
+
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-content-container {
+  width: 465px;
+  height: 352px;
+}
+
+.hero-content-container h6 {
+  color: #f4c430;
+  font-size: 16px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-content-container h1 {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+}
+
+.hero-content-container p {
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+.hero-btn-container {
+  margin-top: 30px;
+}
