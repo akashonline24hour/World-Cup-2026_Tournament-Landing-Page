@@ -1,0 +1,103 @@
+/* Schedule Section */
+.schedule-section {
+  width: 1200px;
+  margin: 90px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+}
+
+.schedule-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Section Title */
+.schedule-title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.schedule-title-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111c2d;
+}
+
+.schedule-title-container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #505f76;
+}
+
+/* Schedule Table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table thead {
+  background: #a73131;
+  color: #ffffff;
+}
+
+.schedule-table th,
+.schedule-table td {
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.schedule-table tbody tr:hover {
+  background: #fff8dc;
+}
+
+.schedule-table th {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.schedule-table td {
+  color: #111c2d;
+  font-weight: 500;
+}
+
+/* Date column data */
+.schedule-table td:first-child {
+  color: #ba1a1a;
+  font-weight: 700;
+}
+
+/* First row - Stage column */
+.schedule-table tbody tr:first-child td:last-child {
+  color: #f60000;
+  font-weight: 700;
+}
+
+/* Last row - Stage column */
+.schedule-table tbody tr:last-child td:last-child {
+  color: #bda004;
+  font-weight: 700;
+}
+
+/* Venue column data */
+.schedule-table td:nth-child(3) {
+  color: #505f76;
+  font-weight: 400;
+  font-size: 16px;
+}
