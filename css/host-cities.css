@@ -1,0 +1,106 @@
+/* Hostt Cities Section */
+.host-cities-section {
+  width: 1235px;
+  margin: 30px auto;
+}
+
+.host-cities-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Host Cities Title */
+.host-cities-container h2 {
+  max-width: 900px;
+  height: 60px;
+  margin: 0 auto 40px;
+  text-align: center;
+  color: #000102;
+  font-size: 56px;
+  font-weight: 600;
+}
+
+/* Host City Cards */
+.host-cities-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.host-city-card {
+  width: 1235px;
+  height: 350px;
+  display: flex;
+  gap: 40px;
+  transition: 0.3s;
+}
+.host-city-card:hover {
+  transform: translateY(-10px);
+  box-shadow:
+    rgba(0, 0, 0, 0.12) 0px 1px 3px,
+    rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+/* Host City Image */
+.host-city-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.host-city-image img {
+  width: 450px;
+  height: 300px;
+  display: inline-block;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Host City Content */
+.host-city-content {
+  width: 710px;
+  height: 290px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.host-city-content h3 {
+  color: #000102;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.host-city-content p {
+  color: #575757;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.host-city-content ul {
+  display: flex;
+  flex-direction: column;
+  list-style: square;
+  margin-left: 20px;
+}
+
+.host-city-content ul li {
+  color: #4d4d4d;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.host-city-content ul li::marker {
+  color: #f46e30;
+}
+
+.host-city-btn-container {
+  display: flex;
+  justify-content: center;
+}
